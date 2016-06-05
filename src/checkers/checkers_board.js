@@ -1,5 +1,5 @@
 var inherits = require('util').inherits;
-var TableTop = require("../../tabletop/tabletop.js");
+var TableTop = require("tabletop-boardgames");
 
 function CheckerBoard() { 
   TableTop.GridBoard.call(this, 8, 8);
